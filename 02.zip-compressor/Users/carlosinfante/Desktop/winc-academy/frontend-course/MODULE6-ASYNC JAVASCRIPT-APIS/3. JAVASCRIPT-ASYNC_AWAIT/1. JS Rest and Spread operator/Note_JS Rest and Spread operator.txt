@@ -1,0 +1,32 @@
+JS: Spread operator
+With ES6 we got smart operators, which can certainly help you leave a smart impression. The rest and spread operators are 2 of these handy operators, which are called "syntactic sugar".
+
+These operators are useful when you are going to work with data from an API. You will notice why.
+
+Syntactic Sugar: In computer science, syntactic sugar is syntax within a programming language that is designed to make things easier to read or to express. It makes the language "sweeter"  for human use: things can be expressed more clearly, more concisely, or in an alternative style that some may prefer.
+
+Watch the video for 6 minutes
+
+https://laracasts.com/series/es6-cliffsnotes/episodes/6
+
+Rest and Spread 
+
+See also this written source
+
+Rest parameters and spread operator
+
+https://javascript.info/rest-parameters-spread
+
+An important quote from the above source
+
+There’s an easy way to distinguish between them:
+
+When ... is at the end of function parameters, it’s “rest parameters” and gathers the rest of the list of arguments into an array.
+
+When ... occurs in a function call or alike, it’s called a “spread operator” and expands an array into a list.
+
+Learning goals:
+
+I can use the spread operator
+I can use a rest parameter
+Even though these operators have the same syntax I can explain the differences between these two.

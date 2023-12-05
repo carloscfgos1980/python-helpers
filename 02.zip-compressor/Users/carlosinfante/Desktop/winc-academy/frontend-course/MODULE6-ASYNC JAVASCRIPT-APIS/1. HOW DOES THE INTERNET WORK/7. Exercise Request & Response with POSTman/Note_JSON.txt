@@ -1,0 +1,107 @@
+https://www.w3schools.com/js/js_json_intro.asp
+
+JSON stands for JavaScript Object Notation
+
+JSON is a text format for storing and transporting data
+
+JSON is "self-describing" and easy to understand
+
+
+
+
+https://www.w3schools.com/js/js_json_datatypes.asp
+
+JSON Objects
+Values in JSON can be objects.
+
+Example
+{
+"employee":{"name":"John", "age":30, "city":"New York"}
+}
+
+
+
+JSON Arrays
+Values in JSON can be arrays.
+
+Example
+{
+"employees":["John", "Anna", "Peter"]
+}
+
+
+SON Booleans
+Values in JSON can be true/false.
+
+Example
+{"sale":true}
+
+
+JSON null
+Values in JSON can be null.
+
+Example
+{"middlename":null}
+
+
+
+			JSON.parse()
+
+https://www.w3schools.com/js/js_json_parse.asp
+
+
+A common use of JSON is to exchange data to/from a web server.
+
+When receiving data from a web server, the data is always a string.
+
+Parse the data with JSON.parse(), and the data becomes a JavaScript object.
+
+Example - Parsing JSON
+Imagine we received this text from a web server:
+
+'{"name":"John", "age":30, "city":"New York"}'
+Use the JavaScript function JSON.parse() to convert text into a JavaScript object:
+
+const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
+
+Array as JSON
+When using the JSON.parse() on a JSON derived from an array, the method will return a JavaScript array, instead of a JavaScript object.
+
+Example
+const text = '["Ford", "BMW", "Audi", "Fiat"]';
+const myArr = JSON.parse(text);
+
+Exceptions
+Parsing Dates
+Date objects are not allowed in JSON.
+
+If you need to include a date, write it as a string.
+
+You can convert it back into a date object later:
+
+Example
+Convert a string into a date:
+
+const text = '{"name":"John", "birth":"1986-12-14", "city":"New York"}';
+const obj = JSON.parse(text);
+obj.birth = new Date(obj.birth);
+
+document.getElementById("demo").innerHTML = obj.name + ", " + obj.birth;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

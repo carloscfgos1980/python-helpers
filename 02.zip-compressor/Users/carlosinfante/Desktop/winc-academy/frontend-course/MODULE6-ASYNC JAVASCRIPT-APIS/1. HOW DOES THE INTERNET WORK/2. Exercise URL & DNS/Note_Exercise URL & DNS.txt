@@ -1,0 +1,18 @@
+Exercise: URL & DNS
+Use the ping command in your terminal to find the IP address of theguardian.com.
+
+https://www.computerhope.com/unix/uping.htm
+
+Use the tracert command to see how many "hops" are taken to establish a connection with theguardian.com.
+
+https://www.computerhope.com/jargon/t/tracerou.htm
+
+Using an URL you can also find the name servers of websites yourself. Use http://whois.domaintools.com/ to find the name servers of:
+
+google.com
+wincacademy.nl
+Lookup your own IP address: What Is My IP Address? IP Address Tools and More
+
+
+Hand in
+You don't need to hand in this exercise.

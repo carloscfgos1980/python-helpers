@@ -1,0 +1,29 @@
+Learn how to make requests with Postman
+Postman is a program that you can use to easily execute HTTP requests on (RESTful) APIs. Postman is used by developers to see if a server is responding as expected.
+
+We will use Postman in this assignment to practice and get used to the HTTP requests that the browser (and your website or web app) executes for you.
+
+You can use Postman from their website (if you log in to https://web.postman.co ). But the downloadable application is more convenient/stable.
+
+Watch the video below to learn the basics of Postman, after which you can continue with the following exercise:
+
+https://www.youtube.com/watch?v=FjgYtQK_zLE
+
+Step 1. Download Postman via the link below:
+
+Download Postman App
+
+https://www.postman.com/downloads/
+
+Step 2. Create an account here <https://identity.getpostman.com/signup>`__
+
+
+Step 3. Under "How do you plan to use Postman?" check "API Documentation" and "Automated Testing".
+
+Step 4: If you have installed the application locally, log in with the account you created.
+
+Learning goals:
+
+I understand what Postman does and how it works
+I understand why developers work with Postman
+I understand how to configure Postman to make an HTTP request

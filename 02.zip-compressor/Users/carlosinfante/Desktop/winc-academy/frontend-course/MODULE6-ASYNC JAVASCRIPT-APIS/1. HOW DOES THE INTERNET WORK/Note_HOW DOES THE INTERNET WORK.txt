@@ -1,0 +1,8 @@
+1. How does the internet work?
+2. Exercise: URL & DNS
+3. The HTTP protocol and status codes
+4. Exercise: Request & Response
+5. Solution: Request & Response
+6. Learn how to make requests with Postman
+7. Exercise: Request & Response with POSTman
+8. Exercise: More practice with Postman

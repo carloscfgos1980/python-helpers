@@ -1,0 +1,11 @@
+1. JS: Synchronous vs Asynchronous JavaScript
+2. Exercise: API Requests (sync)
+3. JS: Callbacks
+4. Exercise: Callbacks
+5. JS: Promises – the Basics
+6. JS: Promises – Make, use, understand
+7. Exercise: Practice with Promises
+8. Solution: Practice with Promises
+9. API Authentication (part 1): API keys
+10. Exercise: API key test with POSTman
+11. API Authentication: Token Based Authentication

@@ -1,0 +1,7 @@
+1. JS: Rest and Spread operator
+2. Exercise: Rest Parameter and Spread Operator
+3. Solution: Rest Parameter and Spread Operator
+4. Use Fetch as a Promise: retrieve data from REST API
+5. JS: Async/Await - syntactic sugar for Promises
+6. Exercise: Async/Await: The new way
+7. Exercise: Async/await

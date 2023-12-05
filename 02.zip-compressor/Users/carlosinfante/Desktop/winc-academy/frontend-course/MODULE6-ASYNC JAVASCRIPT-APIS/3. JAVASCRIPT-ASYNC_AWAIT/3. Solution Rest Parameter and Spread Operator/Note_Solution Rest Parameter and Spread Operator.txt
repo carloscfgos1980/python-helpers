@@ -1,0 +1,37 @@
+Solution: Rest Parameter and Spread Operator
+Function 1:
+
+Write a simple function that adds multiple numbers together
+
+The function accepts multiple arguments
+
+Use the rest parameter to make sure your function uses all arguments as an array.
+
+Solution:
+
+const sum = function(...args) {
+        return args.reduce((acc,item) => {
+                return acc + item;
+        })
+}
+
+console.log(sum(1,2,3,4,5,6)); // expected result: 21
+Function 2:
+
+Write a simple function that adds multiple numbers together
+
+The function takes 1 argument, which is an array of numbers
+
+Use the spread operator to make sure your function
+sums up all items in the array.
+
+Solution:
+
+const sum = function(num1, num2, num3) {
+  return num1 + num2 + num3;
+}
+
+const digits = [1, 2, 3];
+
+console.log(sum(...digits));
+// expected result: 6

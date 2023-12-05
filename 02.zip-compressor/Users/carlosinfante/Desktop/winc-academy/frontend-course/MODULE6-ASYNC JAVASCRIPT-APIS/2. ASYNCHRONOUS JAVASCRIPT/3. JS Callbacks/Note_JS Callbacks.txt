@@ -1,0 +1,18 @@
+JS: Callbacks
+In the video, you can see that Promises and Async/Await are discussed. We will also do so but in separate blocks. So don't be tempted to watch the entire video. It's easy to get confused by The different asynchronous JS methods.
+
+We will start with Callbacks:
+
+Watch the first 10.33 minutes
+
+https://www.youtube.com/watch?v=PoRJizFvM7s
+
+Requesting data via a Callback is just like Starbucks: you describe very clear what you want, give your name, and join at the back of the queue. If they've lost your cup, they've lost your order too. So if something goes wrong while loading, the data may not arrive (on time) where you expect.
+
+By the way, a callback is a general JavaScript concept: it is simply a function that is only executed after another function is carried out.
+
+Learning goals:
+
+I understand what a Callback is.
+I understand why you need a Callback to save data asynchronous
+I understand the basics of how Callbacks are used

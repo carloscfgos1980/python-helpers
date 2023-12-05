@@ -1,0 +1,40 @@
+Exercise: Async/Await: The new way
+You have become acquainted with Promises and how they work. Since ES2017, JavaScript has a new hip thing: async/await.
+
+You secretly make a Promise with aync/await. That is why we first discussed Promises with you. We are now going to teach you this new way of asynchronous JavaScript.
+
+In this exercise, we are going to create a basic setup for making requests.
+
+You can return to this "boilerplate" periodically if you need to make a call to an API. We teach you a number of best practices such as:
+
+Always capitalize API_KEY.
+Put the code responsible for retrieving data from the API in a separate file.
+So be aware that there are multiple ways to write Asynchronous JavaScript (especially useful if you're googling it).
+
+Here we use async/await in combination with the Promise: fetch().
+
+Async/Await syntax (like Promises) is not supported by Internet Explorer 11. So it will not work in that browser. Why? Because IE11...well is a "garbage browser". There are supporting libraries available that convert your async await code into code that is readable by IE11 browsers.
+
+Set-up
+You are going to access the API from https://www.themoviedb.org/settings/api, using async/await. You need a key for this API. That's free. You can request this by registering with your email address and then confirming your account.
+
+Go to https://www.themoviedb.org/settings/api and get an API key
+Activate your API key by filling in the contact form (as far as we're concerned you can just fill in "Jan Bakker, vegetable street 1, Broccolitown) (make sure your email address is correct).
+All set with an API key? It looks like this (this is not a real key) and you can find it in your account:
+
+0b65efc3e3dcb23271083716646785f4
+Exercise:
+Because you are using an API key in this exercise, set the repository to private. You don't want everyone to be able to use your API key.
+
+All right, let's go:
+
+Create 3 files called api-client.js, script.js and index.html
+We are going to put all the relevant JavaScript for retrieving data and communicating with the API in the api-client.js file.
+In the api-client.js create the variable API_KEY with your API key as value.
+Declare an asynchronous function getData() with the async keyword.
+In this function, add a const variable called apiUrl and give it the value of the endpoint you want to address. In our case, we have now chosen the "genres" endpoint of demoviedb. It looks like this: https://api.themoviedb.org/3/genre/movie/list.
+Use the fetch() function with the GET method to fetch the data from the API. Put the fetch function in a variable res that you await. So the code does not proceed until the await is ready.
+Add a standard HTML page to your index.html and connect the javascript file api-client.js file with a script tag.
+The response must also be converted to a JSON format. Why? Because JSON is easier to work with. If we call response.JSON() we get a promise back. So in an async function you can wait for it (await it).
+What do you do with the errors that are potentially there? You can catch it with a try{....} catch{....} block. Add this to your code.
+Move the getData() function call to the to script.js. You want to wait for the getData() function. How do you access the await keyword? By putting it in an async function. So create an asyncronous function in which you wait for getData().

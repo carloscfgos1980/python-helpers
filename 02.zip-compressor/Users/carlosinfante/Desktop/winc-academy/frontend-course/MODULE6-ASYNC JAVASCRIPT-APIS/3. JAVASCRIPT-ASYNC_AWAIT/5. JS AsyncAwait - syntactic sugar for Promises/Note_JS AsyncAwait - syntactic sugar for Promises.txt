@@ -1,0 +1,14 @@
+JS: Async/Await - syntactic sugar for Promises
+Async/ await is syntactic sugar for Promises. In this tutorial, you will gain more insight into how async/await works and what it solves for you.
+
+https://www.youtube.com/watch?v=V_Kr9OSfDeU
+
+Additional resources:
+Async/await
+
+https://javascript.info/async-await
+
+Learning goals:
+
+I can use the async/await syntax
+I can name the advantages of async/await over Promises.

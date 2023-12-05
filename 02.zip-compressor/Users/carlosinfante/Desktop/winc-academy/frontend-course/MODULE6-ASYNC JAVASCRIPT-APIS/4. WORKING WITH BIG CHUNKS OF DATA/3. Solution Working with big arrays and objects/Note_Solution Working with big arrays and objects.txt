@@ -1,0 +1,12 @@
+Solution: Working with big arrays and objects
+Below you will find the link to the Winc Academy GitHub.
+There you will find the written solution of the assignment. 
+
+JavaScript - Working with large arrays and objects with large arrays and objects
+
+https://github.com/WincAcademy/solutions-exercises/tree/master/js_big_arrays
+
+Compare the solution, with your own answers, so you know if you're on the
+right way! Questions? Check the FAQ or send your (extended) question in Slack! 
+
+Happy coding!

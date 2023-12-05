@@ -1,0 +1,31 @@
+API Authentication (part 1): API keys
+APIs have different forms of authentication and authorization.
+
+API Keys are a form of authentication that companies or administrators of APIs can grant you to give you access to their API or to certain parts of their API (authorization).
+
+Authentication: who am I? - vs - Authorization: what am I allowed to do?
+
+To regulate this there are API Keys. This is a "key" that you send when you make a request (GET, POST, DELETE, PUT, PATCH) and that grants you access.
+
+Some beautiful imagery
+You will encounter beautiful metaphors about API keys all over the web. But we have a great one for you: a company or person that makes an API available is just like the FEBO.
+
+***Ver imagen***
+
+The FEBO has a wall of different "entrances" to what they have to offer (aka the "endpoints" of the API). If you as a customer want to come and get something, you need a euro, which they only want to give to certain developers (say, the customers who can really appreciate a snack). You can use this coin to validate that you are worthy to pull a croquette or grill burger from the wall.
+
+The only difference is that in addition to just consuming, you can also bring (POST), modify (PUT or PATCH) or delete (DELETE) to a REST API if the owner of the company allows this.
+
+You can also withdraw what you want from any vending machine with a euro at the FEBO. However, with an API, the administrator can determine that you only have access to certain endpoints with your API key, or that you can submit a GET request to certain endpoints, but do not have POST request access.
+
+Location of the API key
+There are several places in your request where an API key can be expected. Do you remember the request diagrams?
+
+Your API key can end up in these places:
+
+Authorization Header (in the header)
+Basic Auth
+Body Data (in the body)
+Custom Header
+Query String (in the url)
+Read the API documentation carefully where the API key is expected by the back-end.

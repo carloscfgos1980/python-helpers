@@ -1,0 +1,30 @@
+The HTTP protocol and status codes
+Everyone has once seen a broken webpage. Every large website even as a specific '404' page.
+
+For example, go to bol.com/hithisisanon-existingpage
+
+Here you ask the server: can I have the page '/hithisisanon-existingpage'? The server then responds with a 404 - Page Not Foud.
+
+Besides this, there are many more status codes that you can receive from a server.
+
+Watch the video (17.21 min)
+
+https://www.youtube.com/watch?v=VLH3FMQ5BIQ
+
+The written version of the video
+
+https://www.clickminded.com/http-status-codes/
+
+A comprehensive list of HTTP status codes: HTTP-status codes
+
+Examples of HTTP status codes:
+
+404: Not found
+413: Payload too large
+418: I'm a teapot (Our favorite, when you get this you can't get angry)
+429: Too many requests
+
+Learning goals:
+I understand that an HTTP status code gives me information about my request.
+I can look up a status code and understand it.
+I can explain what HTTP stands for.

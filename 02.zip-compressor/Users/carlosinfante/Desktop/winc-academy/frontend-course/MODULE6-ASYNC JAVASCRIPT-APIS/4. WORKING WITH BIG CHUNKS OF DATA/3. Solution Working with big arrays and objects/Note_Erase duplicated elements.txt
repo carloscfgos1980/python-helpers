@@ -1,0 +1,59 @@
+***** ERASE DUPLICATE ELEMENTS IN AN AARAY*****
+
+The first and the 4th methods are the simplies so the recommended one
+
+
+
+https://www.youtube.com/watch?v=sQKa_xUL8Iw
+
+const = [1, 2, 3, 2, 2, 3, 'php', 'java', 'php'
+
+//1. using filter function
+
+function removeDuplicates(array) {
+	return array.filter((el, index) => array.indexOf(el) === index);
+}
+console.log(function removeDuplicates(list));
+
+// 2. using foracher loop
+function removeDuplicates(array) {
+	let x = {};
+
+	array.forEach(function(i) {
+		if(!x[i]) {
+			x[i] = true
+		}
+	});
+	return Object.keys(x);
+}
+console.log(function removeDuplicates(list));
+
+
+//3. using map function
+function removeDuplicates(array) {
+	let a = [];
+	array.map(x => !a.includes(x) ? a.push(x) : "");
+	return a;
+}
+
+console.log(function removeDuplicates(list));
+
+
+
+//4. using set global object
+
+function removeDuplicates(array) {
+	return [...new Set(list)];
+}
+
+console.log(function removeDuplicates(list));
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+Exercise: Request & Response with POSTman
+Part 1:
+
+Make a GET request at https://wincacademy.nl/ .
+
+What's the response?
+Can you find somewhere in the header on which type of server our website is running?
+Part 2:
+
+For the exercises below, set the header with: key Content-Type and value application/json.
+
+Make a POST request at https://httpbin.org/post , add the object below to the body, but converted to json (you can google how to do this) .
+{
+  education:"Winc Academy",
+  judgment:"is the best"
+}
+What's the response?
+Where do you see the HTTP status code?
+Keep the json you send, but change the request to a DELETE and the url to https://httpbin.org/delete-alles .
+What is the response now?
+What HTTP status code do you get now? Why do you think you are getting this back?
+
+Hand in
+You do not have to submit this exercise.

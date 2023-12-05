@@ -1,0 +1,26 @@
+****** CHECKBOXES & CHANGE EVENTS *****
+
+https://www.youtube.com/watch?v=D-sSNQfz_1s&list=PL4cUxeGkcC9gfoKa5la9dsdCNpuey2s-V&index=15
+
+
+2 STEPS:
+1. Create a check box in html
+Ex:
+<form id="add-book">
+        <input type="checkbox" id="hide" />
+        <label for="hide">Hide all books</label>
+
+
+2. Create an event listener in javaScript
+Ex:
+
+// hide books
+const hideBox = document.querySelector('#hide');
+hideBox.addEventListener('change', function(e){
+  if(hideBox.checked){
+    list.style.display = "none"; // when the check box is clicked, it hides the list of books
+  } else {
+    list.style.display = "initial"; // when the checkbox is unclicked, it display the list of books. *Instead of initial could be (list.style.display = "block"
+  }
+});
+

@@ -1,0 +1,26 @@
+Exercise: More practice with Postman
+Create the tutorial below with Postman. So you practiced requests once and know how to add parameters to your request with Postman.
+
+Assignment overview
+
+You will find the detailed assignment description when you click on the link at the bottom of the page.
+
+Part 1: Create GET Request Part 2: Create POST Request Part 3: Adding parameters Part 4: Creating tests with Postman (optional, not necessary to know)
+
+Part 5: Creating collections of requests in Postman (optional, not necessary to know)
+
+Part 6: Running collections with a "collection runner" (optional, not necessary to know)
+
+You don't have to do part 7 (How To Run Collections With Newman)
+
+Postman Tutorial for Beginners with API Testing Example
+
+https://www.guru99.com/postman-tutorial.html
+
+See also Postman's documentation:
+
+Introduction
+
+https://learning.postman.com/docs/getting-started/introduction/
+
+You do not have to submit this assignment.

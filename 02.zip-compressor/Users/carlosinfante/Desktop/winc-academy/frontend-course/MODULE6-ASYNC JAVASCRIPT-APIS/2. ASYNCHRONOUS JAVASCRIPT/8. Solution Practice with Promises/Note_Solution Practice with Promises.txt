@@ -1,0 +1,8 @@
+Use the link below to view the GitHub solution from Winc Academy:
+JavaScript - Practising with promises
+
+https://github.com/WincAcademy/solutions-exercises/tree/master/js_practising-with-promises
+
+You can compare the solution with your own answers to see if you are on the right track! If you have any questions, check the FAQ or ask a question to the mentor team.
+
+Happy coding!

@@ -1,0 +1,19 @@
+How does the internet work?
+The Internet. You use it every day. But how exactly does it work? As mentioned in the introduction of this video, understanding exactly how the internet works is complex. It is therefore not the purpose of this module to fully understand everything. With this video, you will get an introduction to how the internet works, from a front-end web developer perspective.
+
+In another block, you will get more information about the different HTTP requests and response codes.
+
+Watch the video - 15.24 minutes - How the Internet works (for web developers)
+
+https://www.youtube.com/watch?v=e4S8zfLdLgQ
+
+*** Ver imagemes ****
+
+Learning goals:
+
+I can explain what a server is.
+I can explain what requests and responses are.
+I can explain what an IP address is.
+I can explain what DNS is.
+I can (roughly) explain the steps between requesting an HTML page until it is visible in your browser.
+I understand the difference between URI, URN & URL

@@ -1,0 +1,7 @@
+1. Learning how to learn - reminder
+2. Exercise: Working with large arrays and objects
+3. Solution: Working with big arrays and objects
+4. Exercise: API Fun Time
+5. Fast UI with API pattern
+6. Assignment: Todo List
+7. Submit: Todo List

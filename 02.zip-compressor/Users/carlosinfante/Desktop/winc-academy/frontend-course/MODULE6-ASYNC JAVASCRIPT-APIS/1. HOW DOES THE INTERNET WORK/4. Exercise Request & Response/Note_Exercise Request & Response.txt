@@ -1,0 +1,15 @@
+Exercise: Request & Response
+With the basic knowledge of how the World Wide Web works, we would like to ask you to fill in (for yourself on paper) the following terms in the various open boxes ⇒ example. A = F4 (you get that from us!)
+
+Request Body*
+Response Headers
+HTTP Status Code
+Verb
+Response Body*
+Request Headers
+URI
+Tip: In these two diagrams, the request/response shows many similarities with an HTML page you are familiar with.
+
+*these belong in the diagram but are optional in the request/response cycle. So you don't necessarily have to send a body to get an answer. The answer does not always contain a body either. (Of course, this automatically means that the rest is always mandatory).
+
+*** VEr imagen***

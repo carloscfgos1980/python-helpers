@@ -1,0 +1,73 @@
+https://www.youtube.com/watch?v=VLH3FMQ5BIQ
+
+You make a REQUEST using HTTP (Hypertext Transfer Protocol) protocol
+
+** 5 cores status codes:
+
+> 1XX - Informational
+> 2XX - Success
+> 3xx - Redirection
+> 4xx - Client error
+> 5xx - Server error
+
+    			 1xx - Informational 
+	(The server hasn't fullly completed the REQUEST yet and it is still 	thinking)
+ 
+HTTP Status Code: 100 (Continue)
+ 
+HTTP Status Code: 101 (Switching Protocol)
+ 
+HTTP Status Code: 103 (Checkpoint) 
+
+
+				2XX - Success
+
+HTTP Status Code: 200 (ok)
+
+HTTP Status Code: 201 (Created)
+
+HTTP Status Code: 202 (Accepted)
+
+HTTP Status Code: 205 (Reset Content)
+
+HTTP Status Code: 206 (Partial Content)
+
+
+
+					3xx - Redirection
+
+HTTP Status Code: 301 (Moved Permanently)
+
+HTTP Status Code: 302 (Found)
+
+HTTP Status Code: 303 (Not Modified)
+
+HTTP Status Code: 305 (Use Proxy)
+
+HTTP Status Code: 307 (Temporary Redirect)
+
+
+					4xx - Client error
+(Page wasm't found. Something is wrong with the request)
+
+HTTP Status Code: 400 (Bad Request)
+
+HTTP Status Code: 401 (Unauthorized)
+
+HTTP Status Code: 403 (Forbidden)
+
+HTTP Status Code: 404 (Not Found)
+
+HTTP Status Code: 408 (Request timeout)
+
+
+					5xx - Server error
+(The client made a good request but server didn't complete it. Something is wrong with the server)
+
+HTTP Status Code: 500 (Internal Server Error)
+
+HTTP Status Code: 502 (Bad Gateway)
+
+HTTP Status Code: 503 (Server Unavailable)
+
+HTTP Status Code: 504 (Gateway Timeout)

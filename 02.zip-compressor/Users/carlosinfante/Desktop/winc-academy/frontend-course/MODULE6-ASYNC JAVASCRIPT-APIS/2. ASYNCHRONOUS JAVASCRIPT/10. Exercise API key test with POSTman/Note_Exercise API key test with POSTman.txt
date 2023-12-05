@@ -1,0 +1,24 @@
+Exercise: API key test with POSTman
+Part 1:
+
+Information about cats: Cat API Make a GET request on https://api.thecatapi.com/v1/breedshttps://api.thecatapi.com/v1/breeds
+
+What is the response?
+Which status code do you get back?
+Part 2:
+
+Movie information: Open Movie Database API
+
+Make a GET request on http://www.omdbapi.com/?i=tt3896198
+
+What is the response?
+Which status code do you get back?
+Answers
+Part 3:
+
+Now add the following to the parameters. When you add them to the parameters you will see them appear in your request URL. Do the GET request again:
+
+key: apikey value: 896f18d6
+
+What response do you get now?
+Can you recognize some data from the movie finder?

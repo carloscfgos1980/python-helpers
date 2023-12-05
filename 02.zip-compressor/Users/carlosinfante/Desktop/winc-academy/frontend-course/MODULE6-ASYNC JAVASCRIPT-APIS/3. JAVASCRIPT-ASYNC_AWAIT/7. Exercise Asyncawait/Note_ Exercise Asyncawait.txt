@@ -1,0 +1,65 @@
+Exercise: Async/await
+Use the documentation from TheMoveDB and use the code you have made in the previous assignment as a starting point. In the current exercise, you will learn to properly read API documentation and how to make multiple kinds of requests, namely a Post and Delete as well.
+
+Set-up:
+
+You need an API Key. Read the documentation and see the previous assignment.
+
+API Docs
+
+https://developers.themoviedb.org/3/getting-started/introduction
+
+You can use the code from the previous exercise to get started.
+
+A few points of attention:
+
+* You are going to make simple lists in HTML with a number of movie categories.
+* Create separate functions for retrieving your data. For example: getMovieGenres(), getTopRatedMovies(), getTopRatedActionMovies(). Consider whether these functions should be synchronous or asynchronous.
+* Also in the function's name, you always put the REST method (GET PUT POST DELETE). For example: If I wanted to post a rating of a movie to TheMovieDB, I would make the function postMovieRating() for it.
+
+Part 1: GET different endpoints
+
+1. Make a list of all available genres and their corresponding IDs in the TheMovieDB 
+
+Expected result:
+Movie genres listing
+
+*** Ver image (I & II)**** 
+
+2. Get 1 movie, based on the movie ID with Postman (so not the genre ID) ⇒ (how can you find out the ID?). Use the /find endpoint and read it well.
+
+Did you manage to grab 1 movie with Postman? Then get the next movies with Postman, 1 by 1:
+The Lion King (2019)
+The Joker (2019)
+Toy Story 4 (2019)
+You have now learned how to retrieve 1 specific movie. Finally, add 1 <h1> to your HTML and use this to show the title of your all-time favorite movie.
+
+3. Make a new list of 10 Top Rated Movies
+
+* You can choose the context yourself: all-time (default), of the month (extra params?), or 2019 (extra params?).
+* Expected result:
+
+*** VEr image***
+
+Movie genres listing v2
+
+4. Create a new list of the best movies (top rated) within the genre action. Use the Discover query.
+
+https://developers.themoviedb.org/3/discover/movie-discover
+
+5. Create a new list with movies from the year 1975
+
+Use the Discover query
+
+https://developers.themoviedb.org/3/discover/movie-discover
+
+Part 2: Post request (only with Postman)
+
+You are going to make a POST request, which will post your rating to a movie of your choice.
+Note: "A valid session or guest session ID is required. You can read more about how this works" (so read the documentation carefully)
+Your rating actually appears in the database, and can be returned trace to your API key and therefore your email address. So you want to send something "real".
+Check the code generation function in the documentation. They don't use the fetch() method, but you can get some inspiration from it on how the settings should be.
+Check if it was successful. Check your rating at https://www.themoviedb.org. Or maybe you can make a GET request of the movie's ratings, to see if yours is among them? Can be both.
+Part 3: Delete request (only with Postman)
+Delete your rating above.
+Also for this one applies that there is a "valid session or guest session ID is required." Read the documentation on how to delete a DELETE request from your rating.

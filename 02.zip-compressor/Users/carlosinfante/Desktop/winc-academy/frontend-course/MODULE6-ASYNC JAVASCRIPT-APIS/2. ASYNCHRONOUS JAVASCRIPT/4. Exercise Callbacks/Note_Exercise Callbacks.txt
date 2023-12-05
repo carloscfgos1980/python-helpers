@@ -1,0 +1,33 @@
+Exercise: Callbacks
+Step 1
+
+Create a function and name it makeHomework , this function takes two arguments. You can name the first argument course and the second argument callback.
+
+⇒ In fact you can call your arguments whatever you want, but for a callback (which is a function) it is often also named callback to avoid confusion.
+
+The makeHomework function outputs a console.log that reads: "Okay, ok, I'm going to do my [insert course here] homework now".
+
+Tip: use ${string interpolation} to insert the course argument in the console.log text. To use string interpolation, use backticks (`) instead of normal quotation marks (").
+
+Right below the console.log the callback function is called without arguments.
+
+Step 2
+
+Under the now complete function of makeHomework, create a separate function that you call doneWithHomework. It does not accept arguments.
+The doneWithHomework function runs a console.log that says "Look, Mom/Dad, I'm done with my homework!".
+Step 3
+
+Under both functions you can now call the Make homework function with two arguments. The first takes the string "math", the second argument is the function doneWithHomework.
+Step 4
+
+Use SetTimeOut() in your makeHomework function.
+
+Window setTimeout() Method
+
+https://www.w3schools.com/jsref/met_win_settimeout.asp
+
+Reference book:
+
+JavaScript: What the heck is a Callback?
+
+https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced

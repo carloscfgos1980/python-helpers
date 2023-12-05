@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=Q-Zmc0E0GYY
+
+setTimeout(function(){ console.log("Hey hello, I am the second."); }, 2000);
+
+Learning goals:
+
+I can explain in what way, JavaScript is Synchronous.
+I can explain why you may sometimes need Asynchronous JavaScript.
+I can use a setTimeout() myself, to test async JavaScript.

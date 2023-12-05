@@ -1,0 +1,9 @@
+Fast UI with API pattern
+If you are building a frontend application that talks to a backend (such as an API), it is important that your UI (user interface) continues to respond quickly. That's also one of the reasons why we have so many options in modern JavaScript to use asynchronous code.
+
+As a rule of thumb, you can remember: things in the DOM happen quickly, communication with a backend happens slowly.
+
+In the video below we describe a pattern that you can use when building an application that talks to an API.
+
+https://board.wincacademy.nl/unit/view/id:6020
+

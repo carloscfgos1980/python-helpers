@@ -1,0 +1,46 @@
+https://www.youtube.com/watch?v=e4S8zfLdLgQ
+
+The browser makes a request to the server and the server responses.
+
+The server has an IP address
+
+What's my IP
+2a02:a46a:c118:1:20ec:6169:b9d:aeba
+
+* REQUEST contains:
+
+- HEADERS:
+
+~ Host (www.goggle.com)
+~ Method (get, put, post, delete)
+~ Path (image/logo.jpg)
+~ Cookies (string)
+~ user-agent (string)
+~ Content type (application/json)
+
+- POST BODY (if posting data, it is also included)
+~ Payload ({username:'Happy Fisherman 13', password: 'Fido1999'})
+
+
+****************************************************************
+
+https://www.google.com/search?q=how+to+see+request+headers+in+chrome&rlz=1C1CHBF_enNL987NL987&oq=how+to+see+headers+requ&aqs=chrome.1.69i57j0i22i30l9.12192j0j15&sourceid=chrome&ie=UTF-8
+
+To view the request or response HTTP headers in Google Chrome, take the following steps :
+In Chrome, visit a URL, right click , select Inspect to open the developer tools.
+Select Network tab.
+Reload the page, select any HTTP request on the left panel, and the HTTP headers will be displayed on the right panel.
+
+**************************************************************
+
+* RESPONSE contains:
+
+- HEADERS:
+
+~ Content type (text/html, image/jpg, application/json
+~ Status/Code (200ok 400-not found 500-error
+
+- RESPONSE BODY:
+
+~Your file (html, css, js, image)
+~or your results (json, xml, etc)

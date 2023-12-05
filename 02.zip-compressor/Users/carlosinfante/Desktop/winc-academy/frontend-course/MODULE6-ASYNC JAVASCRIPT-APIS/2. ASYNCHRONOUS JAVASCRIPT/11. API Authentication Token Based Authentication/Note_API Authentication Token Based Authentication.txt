@@ -1,0 +1,6 @@
+API Authentication: Token Based Authentication
+In addition to authentication with an API key, you also have authentication based on a token. Also in the Tokens category, you have all kinds of shapes, sizes, and flavors. In this video: the core of token-based authentication.
+
+Watch the video below:
+
+https://www.youtube.com/watch?v=woNZJMSNbuo

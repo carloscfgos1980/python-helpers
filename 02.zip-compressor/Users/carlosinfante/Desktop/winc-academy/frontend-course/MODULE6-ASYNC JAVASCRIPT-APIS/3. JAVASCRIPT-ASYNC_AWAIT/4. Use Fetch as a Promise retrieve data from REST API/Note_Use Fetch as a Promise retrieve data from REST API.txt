@@ -1,0 +1,57 @@
+Use Fetch as a Promise: retrieve data from REST API
+In the previous modules (and video) you learned how to make a Promise, how to call it, and how to handle it.
+
+In real-life situations, however, you will mainly have to deal with requesting and processing a promise that you receive from a Database API (just like a pager you get at the food market so can wait for your meal).
+
+We are going to teach you how, with JavaScript, you can pick up a Promise with data. We use the fetch method for this.
+
+fetch() is a Promise.
+
+Using Fetch
+
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+Can I use... Support tables for HTML5, CSS3, etc
+
+https://caniuse.com/?search=fetch
+
+Below you see a fetch method to resolve a promise ⇒ fetch is a commonly used method to handle promises in a browser. The great thing about fetch is that you can call and use it directly in your JavaScript file without having to download it as a dependency first.
+
+We're going to get the first person from the Star Wars API database (swapi.dev).
+
+Below you can see the end result, we will now walk through it step by step. To explain to you how to "handle" a Promise.
+
+fetch("https://swapi.dev/api/people/1/")
+    .then(response => response.json())
+                .then(data => console.log(data)) 
+    .catch(error => {
+        console.log(error)
+    });
+Step 1:
+
+fetch("https://swapi.dev/api/people/1/") // make a request
+fetch()is a Promise in disguise. On line 1 you indicate to fetch(), the endpoint where you want to fetch the data from. "Go fetch data from a server, at this address"
+Step 2:
+
+.then(response => response.json())
+Actually, it is very readable, fetch has a method (just like .map, .filter and .reduce methods are). The method of fetch is .then().
+When the data is collected, you want to do something. That something is executed in the .then(). In other words, you are going to do something when the fetch (Promise in disguise) is resolved.
+We now call whatever we get back from the server response. You convert your response to a json file with response.json().
+Why is this necessary? ⇒ The response you get contains a lot of extra (meta) data. The response data has not yet been converted to JSON*.
+JSON is the type of data we want and where we can get started.
+*unless you use an API that wants to know a very specific document format. That is not the case now.
+
+Step 3:
+
+.then(data => console.log(data)) 
+The next step is also a .then(), where you can do whatever you want with the data. In our particular case, we want to log the console. But you can also pass it to a function that puts it in the DOM, for example.
+Step 4:
+
+.catch(err => {
+        console.log(err)
+    });
+Remember, fetch is a promise in disguise. A promise may not be "resolved" (because the server is down, for example). Then you would like to know what the problem is.
+Besides then() fetch() has more methods. One of these is .catch().
+****This method (literally) catches the error if the Promise is not resolved, but is rejected. If something goes wrong with your request, you want to know about it. That's why console.log gives you the error.
+Arrow functions
+Arrow functions are quite common in fetch() methods. If you feel a little rusty on those feel free to review the relevant lessons.

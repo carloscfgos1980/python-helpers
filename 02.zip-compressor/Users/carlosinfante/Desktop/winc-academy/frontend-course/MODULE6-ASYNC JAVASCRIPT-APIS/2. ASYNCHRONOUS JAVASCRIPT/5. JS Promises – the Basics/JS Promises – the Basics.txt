@@ -1,0 +1,34 @@
+JS: Promises – the Basics
+As already introduced by Traversy Media, there are several ways of asynchronous JavaScript. We now move on to one way: Promises. Later in the course we will look at most modern async/await syntax. This is "syntax sugar" for a Promise. Good to know how Promises work exactly, so you know what's going on under the hood.
+
+Watch the video from 10.33 to 20.04! You don't have to learn about Async / Await yet
+
+https://www.youtube.com/watch?t=633&v=PoRJizFvM7s&feature=emb_imp_woyt
+
+Promises are, unlike Starbucks, more like such a disc with lights* that you have probably had at a takeaway restaurant. You specify what you want and then you get such a round disc that blinks and vibrates when your food is ready. So you are the holder/keeper of what you get and meanwhile you can sit down and do other things.
+
+*** Ver imagen****
+
+
+The 3 states of a Promise are:
+fulfilled - The action relating to the promise succeeded
+rejected - The action relating to the promise failed
+pending - Hasn't been fulfilled or rejected yet
+More resources to bookmark:
+An incomplete History of Promises in JavaScript
+
+Master the JavaScript Interview: What is a Promise?
+
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
+
+Promise docs on Mozilla
+
+Promise
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+
+Learning goals:
+I understand what Promises are and what "problem" they solve
+I understand how Promises are different from Callbacks
+I know how to make a Promise, but more importantly: how to make a Promise "consume"

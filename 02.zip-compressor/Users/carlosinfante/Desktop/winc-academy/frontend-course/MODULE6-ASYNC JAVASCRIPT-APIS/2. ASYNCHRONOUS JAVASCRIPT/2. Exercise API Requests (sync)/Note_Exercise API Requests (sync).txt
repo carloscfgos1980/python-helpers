@@ -1,0 +1,31 @@
+Exercise: API Requests (sync)
+Synchronous code is defined as “a bunch of statements in sequence”. So the code is executed from top to bottom by JavaScript. You have already seen that the order, where a function or line of code is located, does matter for JavaScript.
+
+To show that Javascript as a language is synchronous and what the consequences are, we have a few small examples:
+
+Create a new folder containing an HTML (with default/basic doctype setup) and a JS file.
+Link the JS file to the standard HTML file (with the well-known <script> tag before the closing tag of the body).
+Add the test code below to the JavaScript file. Try to guess (with what you now know about synchronous and asynchronous JavaScript) what the result will be? And why?
+Now see what the result is in the browser (see result for a double check):
+console.log("Hey hello, I am the first.") 
+setTimeout(function(){ console.log("Hey hello, I am the second."); }, 2000);
+console.log("Hey hello, I am the third.") 
+Result
+Hey hello, I am the first.
+Hey hello, I am the third.
+Hey hello, I am the second.
+Why is this the result?
+
+The second console.log has a Timeout function and the console.log is therefore only shown after that time. Meanwhile, JavaScript continues, logging line three (in the meantime, the code continues, from top to bottom, until the Timeout function is "done").
+
+However, with data retrieval and certain functions, JavaScript may "block". It stops and waits for a certain function to finish (such as for fetching data, for example) and then continues with the rest of the code. Below is an example:
+
+instaPosts = getNewInstaPosts();
+// ... Waiting to fetch from Database
+// ... Waiting to fetch from Database
+// ... Instagram posts are in!
+// ... Do something with the new instagram posts
+placeFooterOnDom();
+In the example above, we outline a scenario where the new Instaposts blocks the code (because it takes a while to get them all), but because of that, placing the Footer on the web page can't be done (which is obviously dramatic for the user experience). Everyone can remember a time when crucial functions or content were not shown or loaded because a video or some image had to be retrieved somewhere before the rest of the website was loaded.
+
+To solve this, there are ways to extract certain code and functions from the standard program "flow". You will learn more about this later.
